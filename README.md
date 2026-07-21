@@ -4,8 +4,6 @@ A document Q&A web app: upload `.txt` or `.pdf` files, then ask questions and
 get answers grounded in that content, with sources cited. Built with **Flask**,
 **LangChain**, **FAISS**, and **Google Gemini**.
 
-*(Add your own screenshots — see the [Screenshots](#screenshots) section below.)*
-
 ## Features
 
 - 📤 Drag-and-drop upload for `.txt` and `.pdf` documents
@@ -37,27 +35,6 @@ get answers grounded in that content, with sources cited. Built with **Flask**,
    to Gemini along with your question, and the answer plus source filenames
    are returned.
 
-## Screenshots
-
-> **For contributors/students reusing this repo:** run the app locally
-> (steps below), open `http://127.0.0.1:5001`, upload a document, ask it a
-> question, then take a screenshot and save it into the `screenshots/`
-> folder using the filenames below — the images will then show up
-> automatically here and in this README.
-
-| File | Shows |
-|---|---|
-| `screenshots/main-ui.png` | The main screen before any documents are uploaded |
-| `screenshots/upload.png` | A document uploaded and listed in the sidebar |
-| `screenshots/chat.png` | A question asked with an answer and cited sources shown |
-
-```
-screenshots/
-├── main-ui.png
-├── upload.png
-└── chat.png
-```
-
 ## Project structure
 
 ```
@@ -70,8 +47,7 @@ screenshots/
 ├── .gitignore
 ├── LICENSE
 ├── uploads/                  # Uploaded documents land here (gitignored)
-├── plots/                    # Output of plot_model_metrics.py (gitignored)
-└── screenshots/              # README images (see above)
+└── plots/                    # Output of plot_model_metrics.py (gitignored)
 ```
 
 ## Setup
